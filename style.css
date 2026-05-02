@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;;
+  margin:0;
+  padding: 0;
+  font-family: Roboto,"Time New Roman";
 }
 body{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
 }
+
 /* fist-section */
 .logo-section{
   display: flex;
@@ -16,8 +20,6 @@ body{
   color: white;
   height: 400px;
   padding: 20px 10%;
-  flex-wrap: wrap;
-  flex: auto;
 }
 
 header{
@@ -53,6 +55,7 @@ header ul a{
 
 .info{
   width: 50%;
+  flex-wrap: wrap;
 }
 
 .info h2{
@@ -73,22 +76,20 @@ button{
   border-radius: 5px;
 }
 
-.image-placeholder{
-  background-color: gray;
-  display: flex;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
+.image-placeholder img{
+  width: 500px;
+  height: 300px;
+  border: solid 2px;
+  border-radius: 5px;
 }
 
-
-/* This the section section */
+/* This the second section */
 .random-info{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 500px;
   width: auto;
   padding:10% 20%;
 }
@@ -112,9 +113,9 @@ button{
   align-items: center;
 }
 
-.info-cards-container .image{
-  width: 150px;
-  height: 150px;
+
+.info-cards-container .image img{
+  width: 250px;
   border:solid 4px #3882f6;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -142,8 +143,9 @@ button{
 
 /* fourth section */
 .signup-section{
-  padding: 10 10%;
+  padding: 10px 10%;
   height: 200px;
+  flex: 1;
 }
 .signup{
   display: flex;
@@ -173,7 +175,9 @@ button{
   justify-content: center;
   align-items: center;
   padding: 20px;
- background-color: #1f2937;
- color: #e5e7eb;
+  background-color: #1f2937;
+  color: #e5e7eb;
   height: 50px;
+
 }
+
